@@ -1,6 +1,6 @@
 An Emacs minor mode for inputting math symbols and Unicode symbols.
 
-Home Page: http://ergoemacs.org/emacs/xmsi-math-symbols-input.html
+Home Page: http://xahlee.info/emacs/emacs/xmsi-math-symbols-input.html
 
 Install using straight.el:
 #+begin_src emacs-lisp
