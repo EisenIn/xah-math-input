@@ -9,5 +9,5 @@ Install using straight.el:
 	( :repo "diamondbond/xah-math-input"
 	  :host github
 	  :type git
-	  :files ("*")))
+	  :files ("xah-math-input.el")))
 #+end_src
