@@ -1,9 +1,10 @@
 ;;; xah-math-input.el --- a minor mode for inputting math and Unicode symbols. -*- coding: utf-8; lexical-binding: t; -*-
 
-;; Copyright © 2010-2017 by Xah Lee
+;; Copyright © 2010-2022 by Xah Lee
 
-;; Author: Xah Lee ( http://xahlee.info/ )
-;; Version: 2.2.20170811
+;; Author: Xah Lee ( http://xahlee.info )
+;; Maintainer: Diamond Bond ( http://diamondbond.neocities.org )
+;; Version: 2.2.20220601
 ;; Created: 08 Dec 2010
 ;; Package-Requires: ((emacs "24.1"))
 ;; Keywords: abbrev, convenience, unicode, math, LaTex
@@ -22,7 +23,7 @@
 ;; Call `global-xah-math-input-mode' to toggle on/off for all buffers.
 ;; Call `xah-math-input-mode' to toggle on/off for current buffer.
 
-;; In lisp code:
+;; In Lisp code:
 ;; (global-xah-math-input-mode 1) ; turn on globally
 ;; (global-xah-math-input-mode 0) ; turn off globally
 ;; (xah-math-input-mode 1) or (xah-math-input-mode-on) ; turn on for current buffer
@@ -68,7 +69,7 @@
 (setq xah-math-input-abrvs (make-hash-table :test 'equal))
 
 (defun xah-math-input--add-to-hash (φpairs)
-  "Add φpairs to the hash table `xah-math-input-abrvs'.
+  "Add ΦPAIRS to the hash table `xah-math-input-abrvs'.
 φpairs is a sequence of pairs. Each element is a sequence of 2 items, [key, value]."
   (mapc
    (lambda (x) (puthash (elt x 0) (elt x 1) xah-math-input-abrvs))
@@ -616,7 +617,7 @@
   ;; ↥ ↧ ⇤ ⇥ ⤒ ⤓ ↨
 
 (defun xah-math-input--add-cycle (cycleList)
-  "DOCSTRING"
+  "CYCLELIST."
   (let (
         (ll (- (length cycleList) 1) )
         (ii 0)
@@ -728,7 +729,7 @@ See `xah-math-input-mode'."
   (define-key xah-math-input-keymap (kbd "S-SPC") 'xah-math-input-change-to-symbol))
 
 (defun xah-math-input--abbr-to-symbol (inputString)
-  "Returns a char corresponding to inputString."
+  "Return a char corresponding to INPUTSTRING."
   (let (resultSymbol charByNameResult)
     (setq resultSymbol (gethash inputString xah-math-input-abrvs))
     (cond
@@ -785,7 +786,7 @@ See also: `xah-math-input-mode'."
     (when (not resultSymbol)
       (when print-message-when-no-match
         (xah-math-input-list-math-symbols)
-        (user-error "「%s」 no match found for that abbrev/input. Call “xah-math-input-list-math-symbols” for a list. Or use a decimal e.g. 「945」 or hexadecimal e.g. 「x3b1」, or full Unicode name e.g. 「greek small letter alpha」."  inputStr)))))
+        (user-error "「%s」 no match found for that abbrev/input. Call “xah-math-input-list-math-symbols” for a list. Or use a decimal e.g. 「945」 or hexadecimal e.g. 「x3b1」, or full Unicode name e.g. 「greek small letter alpha」"  inputStr)))))
 
 ;;;###autoload
 (define-globalized-minor-mode global-xah-math-input-mode xah-math-input-mode xah-math-input-mode-on)
@@ -839,7 +840,7 @@ Full Unicode name can also be used, e.g. 「greek small letter alpha」.
 If you wish to enter a symbor by full unicode name but do not
 know the full name, call `ucs-insert'. Asterisk “*” can be used
 as a wildcard to find the char. For example, call
-“ucs-insert”, then type 「*arrow」 then Tab, then emacs will list
+'ucs-insert', then type 「*arrow」 then Tab, then Emacs will list
 all unicode char names that has “arrow” in it. (this feature is
 part of Emacs 23)
 
