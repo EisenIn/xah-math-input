@@ -4,10 +4,12 @@ A emacs minor mode for inputing math symbols and Unicode symbols.
 
 Home Page: http://ergoemacs.org/emacs/xmsi-math-symbols-input.html
 
-Put in 5 bucks in my patreon.
-https://www.patreon.com/xahlee
-
-or https://paypal.com
-pay to xah@xahlee.org
-
-Thanks.
+Using straight.el:
+#+begin_src emacs-lisp
+  (use-package xah-math-input
+	:straight
+	( :repo "diamondbond/xah-math-input"
+	  :host github
+	  :type git
+	  :files ("*")))
+#+end_src
