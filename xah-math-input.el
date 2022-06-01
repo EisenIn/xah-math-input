@@ -196,7 +196,7 @@
 
    ["A" "Α"] ["B" "Β"] ["G" "Γ"] ["D" "Δ"] ["E" "Ε"] ["Z" "Ζ"] ["H" "Η"] ["Q" "Θ"] ["I" "Ι"] ["K" "Κ"] ["L" "Λ"] ["M" "Μ"] ["N" "Ν"] ["X" "Ξ"] ["P" "Π"] ["R" "Ρ"] ["S" "Σ"] ["T" "Τ"] ["V" "Υ"] ["F" "Φ"] ["C" "Χ"] ["Y" "Ψ"] ["O" "Ω"]
 
-;; omicron in entities section, need full name
+   ;; omicron in entities section, need full name
 
    ))
 
@@ -224,7 +224,7 @@
   ])
 
 (xah-math-input--add-to-hash
-;; http://xahlee.info/math/math_font_unicode.html
+ ;; http://xahlee.info/math/math_font_unicode.html
 
  [
 
@@ -232,7 +232,7 @@
 
   ["goa" "𝔞"] ["gob" "𝔟"] ["goc" "𝔠"] ["god" "𝔡"] ["goe" "𝔢"] ["gof" "𝔣"] ["gog" "𝔤"] ["goh" "𝔥"] ["goi" "𝔦"] ["goj" "𝔧"] ["gok" "𝔨"] ["gol" "𝔩"] ["gom" "𝔪"] ["gon" "𝔫"] ["goo" "𝔬"] ["gop" "𝔭"] ["goq" "𝔮"] ["gor" "𝔯"] ["gos" "𝔰"] ["got" "𝔱"] ["gou" "𝔲"] ["gov" "𝔳"] ["gow" "𝔴"] ["gox" "𝔵"] ["goy" "𝔶"] ["goz" "𝔷"]
 
-    ["continuum" "ℭ"]
+  ["continuum" "ℭ"]
   ])
 
 (xah-math-input--add-to-hash
@@ -255,7 +255,7 @@
   ["scP" "℘"]
   ["scR" "ℛ"]
 
-])
+  ])
 
 (xah-math-input--add-to-hash
  ;; accented letters
@@ -300,7 +300,7 @@
   ["a4" "à"] ["e4" "è"] ["i4" "ì"] ["o4" "ò"] ["u4" "ù"] ["ü4" "ǜ"] ["v4" "ǜ"]
   ["A4" "À"] ["E4" "È"] ["I4" "Ì"] ["O4" "Ò"] ["U4" "Ù"] ["Ü4" "Ǜ"] ["V4" "Ǜ"]
 
-])
+  ])
 
 (xah-math-input--add-to-hash
  [
@@ -400,24 +400,24 @@
   ])
 
 (xah-math-input--add-to-hash
-;; http://xahlee.info/comp/unicode_astronomy.html
+ ;; http://xahlee.info/comp/unicode_astronomy.html
  [ ["sun" "☉"] ["sunray" "☼"] ["moon" "☾"] ["moonr" "☽"] ["mercury" "☿"] ["earth" "♁"] ["saturn" "♄"] ["uranus" "♅"] ["neptune" "♆"] ["pluto" "♇"] ["jupiter" "♃"] ["male" "♂"] ["mars" "♂"] ["female" "♀"] ["venus" "♀"] ["comet" "☄"]] )
 
-  (xah-math-input--add-to-hash
-   [
-    ;; superscripts
-    ["^0" "⁰"] ["^1" "¹"] ["^2" "²"] ["^3" "³"] ["^4" "⁴"] ["^5" "⁵"] ["^6" "⁶"] ["^7" "⁷"] ["^8" "⁸"] ["^9" "⁹"] ["^+" "⁺"] ["^-" "⁻"] ["^=" "⁼"] ["^(" "⁽"] ["^)" "⁾"] ["^n" "ⁿ"] ["^i" "ⁱ"]
+(xah-math-input--add-to-hash
+ [
+  ;; superscripts
+  ["^0" "⁰"] ["^1" "¹"] ["^2" "²"] ["^3" "³"] ["^4" "⁴"] ["^5" "⁵"] ["^6" "⁶"] ["^7" "⁷"] ["^8" "⁸"] ["^9" "⁹"] ["^+" "⁺"] ["^-" "⁻"] ["^=" "⁼"] ["^(" "⁽"] ["^)" "⁾"] ["^n" "ⁿ"] ["^i" "ⁱ"]
 
-    ;; subscripts
+  ;; subscripts
 
-    ["_(" "₍"] ["_)" "₎"] ["_+" "₊"] ["_-" "₋"] ["_0" "₀"] ["_1" "₁"] ["_2" "₂"] ["_3" "₃"] ["_4" "₄"] ["_5" "₅"] ["_6" "₆"] ["_7" "₇"] ["_8" "₈"] ["_9" "₉"] ["_=" "₌"] ["_a" "ₐ"] ["_e" "ₑ"]
+  ["_(" "₍"] ["_)" "₎"] ["_+" "₊"] ["_-" "₋"] ["_0" "₀"] ["_1" "₁"] ["_2" "₂"] ["_3" "₃"] ["_4" "₄"] ["_5" "₅"] ["_6" "₆"] ["_7" "₇"] ["_8" "₈"] ["_9" "₉"] ["_=" "₌"] ["_a" "ₐ"] ["_e" "ₑ"]
 
-    ["_h" "ₕ"] ["_i" "ᵢ"] ["_j" "ⱼ"] ["_k" "ₖ"] ["_l" "ₗ"] ["_m" "ₘ"] ["_n" "ₙ"] ["_o" "ₒ"] ["_p" "ₚ"] ["_r" "ᵣ"] ["_s" "ₛ"] ["_t" "ₜ"] ["_u" "ᵤ"] ["_v" "ᵥ"] ["_x" "ₓ"] ["_schwa" "ₔ"]
+  ["_h" "ₕ"] ["_i" "ᵢ"] ["_j" "ⱼ"] ["_k" "ₖ"] ["_l" "ₗ"] ["_m" "ₘ"] ["_n" "ₙ"] ["_o" "ₒ"] ["_p" "ₚ"] ["_r" "ᵣ"] ["_s" "ₛ"] ["_t" "ₜ"] ["_u" "ᵤ"] ["_v" "ᵥ"] ["_x" "ₓ"] ["_schwa" "ₔ"]
 
-    ])
+  ])
 
 (xah-math-input--add-to-hash
-'( ["inf" "∞"] ["empty" "∅"] ["es" "∅"] ["+-" "±"] ["-+" "∓"]))
+ '( ["inf" "∞"] ["empty" "∅"] ["es" "∅"] ["+-" "±"] ["-+" "∓"]))
 
 (xah-math-input--add-to-hash
  ;; http://xahlee.info/comp/unicode_matching_brackets.html
@@ -449,16 +449,16 @@
 
    ["0" "⓪"] ["1" "①"] ["2" "②"] ["3" "③"] ["4" "④"] ["5" "⑤"] ["6" "⑥"] ["7" "⑦"] ["8" "⑧"] ["9" "⑨"] ["10" "⑩"] ["11" "⑪"] ["12" "⑫"] ["13" "⑬"] ["14" "⑭"] ["15" "⑮"] ["16" "⑯"] ["17" "⑰"] ["18" "⑱"] ["19" "⑲"] ["20" "⑳"]
 
- ["0)" "⓪"]
- ["1)" "①"]
- ["2)" "②"]
- ["3)" "③"]
- ["4)" "④"]
- ["5)" "⑤"]
- ["6)" "⑥"]
- ["7)" "⑦"]
- ["8)" "⑧"]
- ["9)" "⑨"]
+   ["0)" "⓪"]
+   ["1)" "①"]
+   ["2)" "②"]
+   ["3)" "③"]
+   ["4)" "④"]
+   ["5)" "⑤"]
+   ["6)" "⑥"]
+   ["7)" "⑦"]
+   ["8)" "⑧"]
+   ["9)" "⑨"]
 
    ["0." "🄀"] ["1." "⒈"] ["2." "⒉"] ["3." "⒊"] ["4." "⒋"] ["5." "⒌"] ["6." "⒍"] ["7." "⒎"] ["8." "⒏"] ["9." "⒐"]
 
@@ -467,7 +467,7 @@
    ))
 
 (xah-math-input--add-to-hash
-;; http://xahlee.info/comp/unicode_clocks.html
+ ;; http://xahlee.info/comp/unicode_clocks.html
  '( ["1:00" "🕐"] ["1:30" "🕜"] ["2:00" "🕑"] ["2:30" "🕝"] ["3:00" "🕒"] ["3:30" "🕞"] ["4:00" "🕓"] ["4:30" "🕟"] ["5:00" "🕔"] ["5:30" "🕠"] ["6:00" "🕕"] ["6:30" "🕡"] ["7:00" "🕖"] ["7:30" "🕢"] ["8:00" "🕗"] ["8:30" "🕣"] ["9:00" "🕘"] ["9:30" "🕤"] ["10:00" "🕙"] ["10:30" "🕥"] ["11:00" "🕚"] ["11:30" "🕦"] ["12:00" "🕛"] ["12:30" "🕧"]))
 
 ;; http://xahlee.info/comp/unicode_music_symbols.html
@@ -491,7 +491,7 @@
    ["fn" "ƒ"]))
 
 (xah-math-input--add-to-hash
-   ;; relations http://xahlee.info/comp/unicode_math_operators.html
+ ;; relations http://xahlee.info/comp/unicode_math_operators.html
  '(
    ["<" "≺"]
    [">" "≻"]
@@ -591,7 +591,7 @@
    ))
 
 (xah-math-input--add-to-hash
-;; http://xahlee.info/comp/unicode_full-width_chars.html
+ ;; http://xahlee.info/comp/unicode_full-width_chars.html
  '(
 
    ["fw," "，"] ["fw." "．"] ["fw:" "："] ["fw;" "；"] ["fw!" "！"] ["fw?" "？"] ["fw`" "｀"] ["fw'" "＇"] ["fw\"" "＂"] ["fw&" "＆"]
@@ -612,25 +612,25 @@
 
    ))
 
-  ;; 2010-12-10. char to add
-  ;; soft hyphen ­
-  ;; ↥ ↧ ⇤ ⇥ ⤒ ⤓ ↨
+;; 2010-12-10. char to add
+;; soft hyphen ­
+;; ↥ ↧ ⇤ ⇥ ⤒ ⤓ ↨
 
 (defun xah-math-input--add-cycle (cycleList)
   "CYCLELIST."
   (let (
-        (ll (- (length cycleList) 1) )
-        (ii 0)
-        )
-    (while (< ii ll)
-      (let (
-            (charThis (elt cycleList ii ))
-            (charNext (elt cycleList (+ ii 1) ))
-            )
-        (puthash charThis charNext xah-math-input-abrvs)
-        (setq ii (1+ ii) ) ) )
-    (puthash (elt cycleList ll) (elt cycleList 0) xah-math-input-abrvs)
-    ))
+		(ll (- (length cycleList) 1) )
+		(ii 0)
+		)
+	(while (< ii ll)
+	  (let (
+			(charThis (elt cycleList ii ))
+			(charNext (elt cycleList (+ ii 1) ))
+			)
+		(puthash charThis charNext xah-math-input-abrvs)
+		(setq ii (1+ ii) ) ) )
+	(puthash (elt cycleList ll) (elt cycleList 0) xah-math-input-abrvs)
+	))
 
 ;; cycle brackets
 (xah-math-input--add-cycle ["〘〙" "〔〕"])
@@ -705,22 +705,22 @@
 (defun xah-math-input--hash-to-list (hashtable)
   "Return a list that represent the HASHTABLE."
   (let (mylist)
-    (maphash (lambda (kk vv) (setq mylist (cons (list vv kk) mylist))) hashtable)
-    mylist
-    ))
+	(maphash (lambda (kk vv) (setq mylist (cons (list vv kk) mylist))) hashtable)
+	mylist
+	))
 
 (defun xah-math-input-list-math-symbols ()
   "Print a list of math symbols and their input abbreviations.
 See `xah-math-input-mode'."
   (interactive)
   (with-output-to-temp-buffer "*xah-math-input output*"
-    (mapc (lambda (tt)
-            (princ (concat (car tt) " " (car (cdr tt)) "\n")))
-          (sort
-           (xah-math-input--hash-to-list xah-math-input-abrvs)
-           (lambda
-             (a b)
-             (string< (car a) (car b)))))))
+	(mapc (lambda (tt)
+			(princ (concat (car tt) " " (car (cdr tt)) "\n")))
+		  (sort
+		   (xah-math-input--hash-to-list xah-math-input-abrvs)
+		   (lambda
+			 (a b)
+			 (string< (car a) (car b)))))))
 
 (defvar xah-math-input-keymap nil "Keymap for xah-math-input mode.")
 
@@ -731,20 +731,20 @@ See `xah-math-input-mode'."
 (defun xah-math-input--abbr-to-symbol (inputString)
   "Return a char corresponding to INPUTSTRING."
   (let (resultSymbol charByNameResult)
-    (setq resultSymbol (gethash inputString xah-math-input-abrvs))
-    (cond
-     (resultSymbol resultSymbol)
-     ;; decimal. 「945」 or 「#945」
-     ((string-match "\\`#?\\([0-9]+\\)\\'" inputString) (char-to-string (string-to-number (match-string 1 inputString))))
-     ;; e.g. decimal with html entity markup. 「&#945;」
-     ((string-match "\\`&#\\([0-9]+\\);\\'" inputString) (char-to-string (string-to-number (match-string 1 inputString))))
-     ;; hex number. e.g. 「x3b1」 or 「#x3b1」
-     ((string-match "\\`#?x\\([0-9a-fA-F]+\\)\\'" inputString) (char-to-string (string-to-number (match-string 1 inputString) 16)))
-     ;; html entity hex number. e.g. 「&#x3b1;」
-     ((string-match "\\`&#x\\([0-9a-fA-F]+\\);\\'" inputString) (char-to-string (string-to-number (match-string 1 inputString) 16)))
-     ;; unicode full name. e.g. 「GREEK SMALL LETTER ALPHA」
-     ((and (string-match "\\`\\([- a-zA-Z0-9]+\\)\\'" inputString) (setq charByNameResult (assoc-string inputString (ucs-names) t))) (char-to-string (cdr charByNameResult)))
-     (t nil))))
+	(setq resultSymbol (gethash inputString xah-math-input-abrvs))
+	(cond
+	 (resultSymbol resultSymbol)
+	 ;; decimal. 「945」 or 「#945」
+	 ((string-match "\\`#?\\([0-9]+\\)\\'" inputString) (char-to-string (string-to-number (match-string 1 inputString))))
+	 ;; e.g. decimal with html entity markup. 「&#945;」
+	 ((string-match "\\`&#\\([0-9]+\\);\\'" inputString) (char-to-string (string-to-number (match-string 1 inputString))))
+	 ;; hex number. e.g. 「x3b1」 or 「#x3b1」
+	 ((string-match "\\`#?x\\([0-9a-fA-F]+\\)\\'" inputString) (char-to-string (string-to-number (match-string 1 inputString) 16)))
+	 ;; html entity hex number. e.g. 「&#x3b1;」
+	 ((string-match "\\`&#x\\([0-9a-fA-F]+\\);\\'" inputString) (char-to-string (string-to-number (match-string 1 inputString) 16)))
+	 ;; unicode full name. e.g. 「GREEK SMALL LETTER ALPHA」
+	 ((and (string-match "\\`\\([- a-zA-Z0-9]+\\)\\'" inputString) (setq charByNameResult (assoc-string inputString (ucs-names) t))) (char-to-string (cdr charByNameResult)))
+	 (t nil))))
 
 (defun xah-math-input-change-to-symbol (&optional print-message-when-no-match)
   "Change text selection or word to the left of cursor into a Unicode character.
@@ -766,27 +766,27 @@ If preceded by `universal-argument', print error message when no valid abbrev fo
 See also: `xah-math-input-mode'."
   (interactive "P")
   (let (p1 p2 inputStr resultSymbol)
-    (if (region-active-p)
-        (progn
-          (setq p1 (region-beginning))
-          (setq p2 (region-end))
-          (setq inputStr (buffer-substring-no-properties p1 p2))
-          (setq resultSymbol (xah-math-input--abbr-to-symbol inputStr))
-          (when resultSymbol (progn (delete-region p1 p2) (insert resultSymbol))))
-      ;; if there's no text selection, grab all chars to the left of cursor point up to whitespace, try each string until there a valid abbrev found or none char left.
-      (progn
-        (setq p2 (point))
-        (skip-chars-backward "^ \t\n" -20)
-        (setq p1 (point))
-        (while (and (not resultSymbol) (>= (- p2 p1) 1))
-          (setq inputStr (buffer-substring-no-properties p1 p2))
-          (setq resultSymbol (xah-math-input--abbr-to-symbol inputStr))
-          (when resultSymbol (progn (goto-char p2) (delete-region p1 p2) (insert resultSymbol)))
-          (setq p1 (1+ p1)))))
-    (when (not resultSymbol)
-      (when print-message-when-no-match
-        (xah-math-input-list-math-symbols)
-        (user-error "「%s」 no match found for that abbrev/input. Call “xah-math-input-list-math-symbols” for a list. Or use a decimal e.g. 「945」 or hexadecimal e.g. 「x3b1」, or full Unicode name e.g. 「greek small letter alpha」"  inputStr)))))
+	(if (region-active-p)
+		(progn
+		  (setq p1 (region-beginning))
+		  (setq p2 (region-end))
+		  (setq inputStr (buffer-substring-no-properties p1 p2))
+		  (setq resultSymbol (xah-math-input--abbr-to-symbol inputStr))
+		  (when resultSymbol (progn (delete-region p1 p2) (insert resultSymbol))))
+	  ;; if there's no text selection, grab all chars to the left of cursor point up to whitespace, try each string until there a valid abbrev found or none char left.
+	  (progn
+		(setq p2 (point))
+		(skip-chars-backward "^ \t\n" -20)
+		(setq p1 (point))
+		(while (and (not resultSymbol) (>= (- p2 p1) 1))
+		  (setq inputStr (buffer-substring-no-properties p1 p2))
+		  (setq resultSymbol (xah-math-input--abbr-to-symbol inputStr))
+		  (when resultSymbol (progn (goto-char p2) (delete-region p1 p2) (insert resultSymbol)))
+		  (setq p1 (1+ p1)))))
+	(when (not resultSymbol)
+	  (when print-message-when-no-match
+		(xah-math-input-list-math-symbols)
+		(user-error "「%s」 no match found for that abbrev/input. Call “xah-math-input-list-math-symbols” for a list. Or use a decimal e.g. 「945」 or hexadecimal e.g. 「x3b1」, or full Unicode name e.g. 「greek small letter alpha」"  inputStr)))))
 
 ;;;###autoload
 (define-globalized-minor-mode global-xah-math-input-mode xah-math-input-mode xah-math-input-mode-on)
