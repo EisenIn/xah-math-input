@@ -845,7 +845,7 @@ all unicode char names that has “arrow” in it. (this feature is
 part of Emacs 23)
 
 Home page at: URL `http://ergoemacs.org/emacs/xah-math-input-math-symbols-input.html'"
-  nil
+  :init-value nil
   :global nil
   :lighter " ∑α"
   :keymap xah-math-input-keymap
