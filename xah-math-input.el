@@ -244,8 +244,11 @@
   ["scl" "ℓ"]
 
   ;; todo need all caps
+  ;; FE: These are called Mathematical Script Capital, see https://www.compart.com/en/unicode/U+1D4B1
+  
 
   ["scB" "ℬ"]
+  ["scC" "𝒞"]
   ["scE" "ℰ"]
   ["scF" "ℱ"]
   ["scH" "ℋ"]
@@ -253,6 +256,7 @@
   ["scL" "ℒ"]
   ["scM" "ℳ"]
   ["scP" "℘"]
+  ["scV" "𝒱"]
   ["scR" "ℛ"]
 
   ])
